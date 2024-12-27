@@ -2,9 +2,9 @@ import { products } from "../constants";
 import PopularProductsCard from "../Componets/PopularProductsCard";
 const PopularProducts = () => {
   return (
-    <section id={products} className="max-container ">
+    <section id="products" className="max-container pb-20 border-b-2  ">
       <div className="max-w-[400px]">
-        <h2 className="text-2xl font-bold">
+        <h2 className="text-[2rem] font-bold">
           Our <span className="text-coral-red">Popular</span> Products
         </h2>
         <p className="text-slate-gray mt-4">
