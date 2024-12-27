@@ -1,0 +1,45 @@
+import "./index.css";
+import Hero from "./sections/Hero";
+import Footer from "./sections/Footer";
+import CustomerReviews from "./sections/CustomerReviews";
+import PopularProducts from "./sections/PopularProducts";
+import Services from "./sections/Services";
+import SpecialOffers from "./sections/SpecialOffer";
+import Subscribe from "./sections/Subscribe";
+import SuperQuality from "./sections/SuperQuality";
+import Nav from "./Componets/Nav";
+function App() {
+  return (
+    <main
+      className="relative xl:mx-20  max-w-full
+    "
+    >
+      <Nav />
+      <section className="xl:padding-l wide:padding-r padding-b  w-full  ">
+        <Hero />
+      </section>
+      <section className="padding">
+        <PopularProducts />
+      </section>
+      <section className="padding">
+        <SuperQuality />
+      </section>
+      <section className="padding-x py-10">
+        <Services />
+      </section>
+      <section className="padding">
+        <SpecialOffers />
+      </section>
+      <section className="padding bg-pale-blue">
+        <CustomerReviews />
+      </section>
+      <section className="padding-x sm:py-32 py-16 w-full">
+        <Subscribe />
+      </section>
+      <section className="padding-x padding-t pb-8 bg-black">
+        <Footer />
+      </section>
+    </main>
+  );
+}
+export default App;
