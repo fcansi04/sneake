@@ -25,7 +25,7 @@ const SuperQuality = () => {
           <Button label="Wiew details" />
         </div>
       </div>
-      <div className="flex-1 max-sm:absolute max-sm:w-[130px] max-sm:bottom-[0px] max-sm:right-[80px]">
+      <div className="flex-1 max-md:hidden max-sm:right-[80px] ">
         <img className="md:w-[400px]" src={shoe8} alt="" />
       </div>
     </section>
